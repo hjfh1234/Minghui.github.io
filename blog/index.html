@@ -18,7 +18,7 @@ title: Blog
 			{% endif %}
 
 			<p class="post-excerpt">{{ post.excerpt | strip_html }} [<a style="color:red" href="{{ post.url }}">read more</a>]</p>
-		{% endif %}
+		{% endfor %}
 
 	</section>
 </div>
